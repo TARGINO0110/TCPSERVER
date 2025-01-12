@@ -1,0 +1,6 @@
+@TCPSERVER_HostAddress = http://localhost:5171
+
+GET {{TCPSERVER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
